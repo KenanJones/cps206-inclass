@@ -1,5 +1,5 @@
 #Notes
-git clone <address>
+git clone "address"
 git add .
 git commit -am "comments"
 git push

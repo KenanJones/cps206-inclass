@@ -1,8 +1,7 @@
 # cps206
-random stuff from cps206
+cps 206 notes
 ```java
 
-myCode == reallyAwesome
 System.out.println("hi!");
 
 ```

@@ -1,4 +1,8 @@
 #Notes
+git clone <address>
+git add .
+git commit -am "comments"
+git push
 ##week:
 better notes
 exceptions

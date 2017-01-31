@@ -21,3 +21,14 @@ always throw an exception unless you are in a driver
      }
   }
   ```
+###01-31-17
+arraylist uses "nodes"
+node has method next and data of any type
+  ```java
+  <E extends Shape> //shape and subclasses
+  <? super Integer> //integer and superclasses
+  <E extends Comparable<? super E>>
+  //for example, E is type string:
+  //E can only be Comparable or String
+  ```
+  

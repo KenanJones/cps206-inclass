@@ -18,13 +18,19 @@ public class Stuff{
          System.out.println(iterator.next());
       }
 
-      ArrayList<ArrayList<String>> list2D = new ArrayList<>();
+      /*ArrayList<ArrayList<String>> list2D = new ArrayList<>();
       list2D.add(new ArrayList<>());
       list2D.get(0).add("something");
 
       //this is a better alternative
       ArrayList<String>[] lists = new ArrayList[10];
       System.out.println(lists.length);
-      System.out.println(lists[0].size());
+      System.out.println(lists[0].size());*/
+      String[] names = new String[17];
+      names["kenan".hashCode() % 17] = "kenan";
+      HashMap<Integer,String> numbers = new HashMap<>();
+      numbers.put(1,"one");
+      numbers.get(1);//returns "one"
+      HashMap<String,String> strings = new HashMap<>();
    }
 }

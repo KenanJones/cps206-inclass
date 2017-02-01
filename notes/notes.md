@@ -32,3 +32,4 @@ node has method next and data of any type
   //E can only be Comparable or String
   ```
 ###02-01-17
+hashCode() returns an int off an object

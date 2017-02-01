@@ -31,4 +31,4 @@ node has method next and data of any type
   //for example, E is type string:
   //E can only be Comparable or String
   ```
-  
+###02-01-17

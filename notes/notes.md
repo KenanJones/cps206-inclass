@@ -1,5 +1,7 @@
 #Notes
 git clone "address"
+cd to your repo
+git checkout -b YourBranchName
 git add .
 git commit -am "comments"
 git push

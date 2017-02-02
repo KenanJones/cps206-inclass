@@ -4,7 +4,8 @@ public class RecursionExample{
    public static void main(String... args){
       RecursionExample recursion = new RecursionExample();
       System.out.println(recursion.doFactorial(4));
-      System.out.println(recursion.doSums(11));
+      System.out.println(recursion.doSum(11));
+      System.out.println(recursion.doSum(10,14));
    }
 
    public int doFactorial(int n){
@@ -17,7 +18,11 @@ public class RecursionExample{
      else return n*doFactorial(n-1);
    }
 
-   public int doSums(int n){
+   public int doSum(int n){
       return (n*n+n)/2;
+   }
+
+   public int doSum(int start, int end){
+      return doSum(end)-doSum(start);
    }
 }

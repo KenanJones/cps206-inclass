@@ -9,11 +9,6 @@ public class RecursionExample{
    }
 
    public int doFactorial(int n){
-     /*if(n > 1){
-        factorial *= n;
-        n--;
-        doFactorial(n);
-     }*/
      if(n == 1) return 1;
      else return n*doFactorial(n-1);
    }

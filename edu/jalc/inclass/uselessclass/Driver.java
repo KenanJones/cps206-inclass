@@ -1,4 +1,4 @@
-package edu.jalc.inclass;
+package edu.jalc.inclass.uselessclass;
 
 public class Driver{
 

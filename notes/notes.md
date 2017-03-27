@@ -1,4 +1,4 @@
-#Notes
+# Notes
 git clone "address"
 cd to your repo
 git checkout -b YourBranchName
@@ -15,7 +15,7 @@ generics / iterators
 java 8 API
 uml
 unit testing
-###01-30-17
+### 01-30-17
 
 always throw an exception unless you are in a driver
   ```java
@@ -25,7 +25,7 @@ always throw an exception unless you are in a driver
      }
   }
   ```
-###01-31-17
+### 01-31-17
 arraylist uses "nodes"
 node has method next and data of any type
   ```java
@@ -35,5 +35,5 @@ node has method next and data of any type
   //for example, E is type string:
   //E can only be Comparable or String
   ```
-###02-01-17
+### 02-01-17
 hashCode() returns an int off an object

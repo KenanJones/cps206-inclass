@@ -1,4 +1,4 @@
-package edu.jalc.inclass.interfaces;
+package edu.jalc.inclass.interfaces.bottle;
 
 interface Fillable{
   public void fill();

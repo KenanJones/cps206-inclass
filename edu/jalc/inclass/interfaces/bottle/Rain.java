@@ -1,4 +1,4 @@
-package edu.jalc.inclass.interfaces;
+package edu.jalc.inclass.interfaces.bottle;
 
 class Rain implements Pourable{
 
